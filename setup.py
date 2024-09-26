@@ -7,7 +7,6 @@ setup(
     author='Erkan Adali',
     author_email='erkanadali91@gmail.com.com',
     description='A simple ROS Rate implementation with pure Python',
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
+    readme = "README.md",
     url='https://github.com/eadali/simple-rate',
 )
