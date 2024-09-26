@@ -7,5 +7,5 @@ setup(
     author='Erkan Adali',
     author_email='erkanadali91@gmail.com.com',
     description='A simple ROS Rate implementation with pure Python',
-    url='https://github.com/eadali/roborate',
+    url='https://github.com/eadali/simple-rate',
 )
