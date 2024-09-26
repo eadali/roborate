@@ -56,11 +56,8 @@ class Rate:
         Attempt sleep at the specified rate. sleep() takes into
         account the time elapsed since the last successful
         sleep().
-
-        @raise ROSInterruptException: if ROS shutdown occurs before
-        sleep completes
-        @raise ROSTimeMovedBackwardsException: if ROS time is set
-        backwards
+        TODO: Check shutdown.
+        TODO: Check backward time move.
         """
         curr_time = self.timefun()
         self.sleepfun(self._remaining(curr_time))
