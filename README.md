@@ -1,6 +1,8 @@
 # Simple-Rate
 A simple ROS Rate implementation with pure Python. The ```Rate``` class provides a convenient way to control the rate at which a process loops and sleeps based on a specified frequency.
+![Alt text](images/rate.png)
     
+
 ## Usage
 ### Importing the Class
 ```python
